@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+header,
+nav,
+main,
+footer,
+.site_logo_and_name,
+.site_name,
+.site_nav,
+.search_and_login,
+.search_container,
+.logo,
+.login_container,
+.login_design,
+.login_design img,
+.search_icon img,
+.author_info,
+.author_books,
+.author_books_in,
+.h2,
+.kitab1,
+.kitab_adi {
+    display: flex;
+    align-items: center;
+}
+
+
+body {
+
+    font-family: 'Arial', sans-serif;
+    background-color: #f1efdd;
+    color: #000000;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+header {
+    background-color: #d6ce93c2;
+    width: 100vw;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 20px 20px;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 70;
+    min-height: 70px;
+}
+
+.site_logo_and_name {
+    justify-content: center;
+    width: 300px;
+    gap: 20px;
+    text-decoration: none;
+    color: #000000;
+
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+}
+
+.site_name {
+    width: 150px;
+}
+
+nav {
+    gap: 20px;
+    width: 1615px;
+    justify-content: space-between;
+}
+
+.site_nav {
+    gap: 20px;
+}
+
+.site_nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.search_and_login {
+    gap: 20px;
+    width: 600px;
+    justify-content: space-around;
+
+}
+
+.search_container {
+    gap: 20px;
+
+    justify-content: center;
+    background-color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.673);
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 250px;
+    height: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search_bar {
+    width: 180px;
+}
+
+.search_bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.search_icon img {
+    width: 25px;
+}
+
+.login_container {
+
+    gap: 20px;
+
+}
+
+.login_design {
+    padding: 8px 0;
+    border-radius: 30px;
+    gap: 15px;
+    width: 150px;
+    height: 40px;
+    border: 0.5px solid rgba(0, 0, 0, 0.626);
+    background-color: white;
+    justify-content: center;
+
+}
+
+.login_design img {
+    width: 30px;
+}
+
+.login_text {
+    text-decoration: none;
+    color: black;
+}
+
+.login_text:hover {
+    color: cornflowerblue;
+}
+
+main {
+    justify-content: center;
+    width: 90vw;
+    height: 833px;
+    flex: 833;
+}
+
+.author_info {
+    width: 726px;
+    height: 100%;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.author_info_img {
+    width: 325px;
+    height: 225px;
+    border: 1px solid black;
+}
+
+.author_info_img img {
+    width: 325px;
+    height: 225px;
+
+}
+
+.author_info_melumat1 {
+    width: 325px;
+    height: 225px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    padding: 5px;
+    background-color: #c7c4a654;
+}
+
+.author_info_melumat1 ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.author_info_melumat1 li {
+    font-size: 15px;
+}
+
+.author_info_melumat2 {
+    width: 670px;
+    height: 550px;
+    background-color: #c7c4a654;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.author_info_melumat2 p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.author_books {
+
+    width: 1089px;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.h2 {
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+    
+}
+
+.author_books_in {
+
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: 750px;
+    padding: 10px;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.kitab1 {
+    border: 1px solid rgba(156, 136, 136, 0.39);
+    width: 225px;
+    height: 300px;
+    padding: 10px 20px;
+    gap: 15px;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #93606054;
+}
+
+.kitab_img {
+    border: 1px solid black;
+    width: 100%;
+    height: 85%;
+}
+
+.kitab_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.kitab_adi {
+    justify-content: center;
+}
+
+.kitab_adi p {
+    text-align: center;
+}
+
+footer {
+    background-color: #d6ce93c2;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    flex: 50;
+    min-height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    transition: width 0.5s, height 0.5s;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+    height: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
